@@ -1,0 +1,37 @@
+body {
+  background-color: #b4ccd1;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+.nav {
+  background-color: #00000000;
+  margin: 0 0 20px 0;
+  padding: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ulNav {
+  border-bottom: 2px solid black;
+  margin: 0;
+  padding: 0 30px 10px 30px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+.ulNav li {
+  list-style: none;
+}
+.ulNav li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 600;
+}
+.ulNav li a:hover {
+  background-color: #00000055;
+  color: white;
+}
